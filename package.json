@@ -1,8 +1,12 @@
 {
   "name": "git-test",
   "version": "1.0.0",
-  "description": "This is a test directory to learn git and node",
-  "main": "index.html",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,13 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/gnanee57/git-test.git"
   },
-  "author": "KSS Gnaneswar Sai Kumar",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gnanee57/git-test/issues"
   },
-  "homepage": "https://github.com/gnanee57/git-test#readme",
-  "devDependencies": {
-    "lite-server": "^2.5.4"
-  }
+  "homepage": "https://github.com/gnanee57/git-test#readme"
 }
